@@ -2,43 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Example : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
-    private CharacterController controller;
-    private Vector3 playerVelocity;
-    private bool groundedPlayer;
-    private float playerSpeed = 2.0f;
-    private float jumpHeight = 1.0f;
-    private float gravityValue = -9.81f;
+    // this script for enemy AI 
+    private Transform player;
+    private float dist;
+    public float moveSpeed;
+    public float howClose;
 
-    private void Start()
+    void Start()
     {
-        controller = gameObject.AddComponent<CharacterController>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
-
     void Update()
     {
-        groundedPlayer = controller.isGrounded;
-        if (groundedPlayer && playerVelocity.y < 0)
+        dist = Vector3.Distance(player.position, transform.position);
+
+        if(dist <= howClose)
         {
-            playerVelocity.y = 0f;
+            transform.LookAt(player);
+            GetComponent<Rigidbody>().AddForce(transform.forward * moveSpeed);
         }
 
-        Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-        controller.Move(move * Time.deltaTime * playerSpeed);
-
-        if (move != Vector3.zero)
+        if(dist <= 1.5f)
         {
-            gameObject.transform.forward = move;
-        }
 
-        // Changes the height position of the player..
-        if (Input.GetButtonDown("Jump") && groundedPlayer)
-        {
-            playerVelocity.y += Mathf.Sqrt(jumpHeight * -3.0f * gravityValue);
         }
-
-        playerVelocity.y += gravityValue * Time.deltaTime;
-        controller.Move(playerVelocity * Time.deltaTime);
     }
 }
