@@ -6,16 +6,14 @@ public class CloneScript : MonoBehaviour
 {
     public GameObject prefab;
 
-    void Start()
+
+    private void OnTriggerEnter(Collider collider)
     {
-        for (int i = 0; i < 10; i++)
-            Instantiate(prefab, new Vector3(i * 2.0f, 0, 0), Quaternion.identity);
-    }
-    void OnCollisionEnter(Collision collision)
-    {
-        if(collision.collider.tag == "CloneBox")
+        if (collider.tag == "Player")
         {
-            Instantiate(gameObject);
+            collider.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+            collider.transform.parent = this.transform;
+            Instantiate(Player, new Vector2(0, -3.5f), Quaternion.identity);
         }
     }
 }

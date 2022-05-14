@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    // this script for enemy AI 
     private Transform player;
     private float dist;
     public float moveSpeed;
@@ -24,9 +23,6 @@ public class Enemy : MonoBehaviour
             GetComponent<Rigidbody>().AddForce(transform.forward * moveSpeed);
         }
 
-        if(dist <= 1.5f)
-        {
-
-        }
+        
     }
 }
