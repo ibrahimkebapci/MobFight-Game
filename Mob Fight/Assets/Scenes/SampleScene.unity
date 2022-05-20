@@ -202,6 +202,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf635e40a3ccd44b691dc998819e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0
+  howClose: 0
 --- !u!1 &77292961
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,6 +395,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf635e40a3ccd44b691dc998819e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0
+  howClose: 0
 --- !u!1 &231822907
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,6 +406,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 231822908}
+  - component: {fileID: 231822909}
   m_Layer: 0
   m_Name: CloneBoxs (1)
   m_TagString: Untagged
@@ -431,6 +436,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &231822909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231822907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8896d83e868a741a293406facbe4b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &238936837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1386,6 +1403,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf635e40a3ccd44b691dc998819e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0
+  howClose: 0
 --- !u!1001 &931414608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1610,6 +1629,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf635e40a3ccd44b691dc998819e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0
+  howClose: 0
 --- !u!1 &964746211
 GameObject:
   m_ObjectHideFlags: 0
@@ -1925,6 +1946,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf635e40a3ccd44b691dc998819e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0
+  howClose: 0
 --- !u!1 &1112519864
 GameObject:
   m_ObjectHideFlags: 0
@@ -2150,6 +2173,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf635e40a3ccd44b691dc998819e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0
+  howClose: 0
 --- !u!1001 &1187026268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2403,6 +2428,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf635e40a3ccd44b691dc998819e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0
+  howClose: 0
 --- !u!1001 &1454211754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2544,6 +2571,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf635e40a3ccd44b691dc998819e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0
+  howClose: 0
 --- !u!1001 &1486420959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2971,6 +3000,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf635e40a3ccd44b691dc998819e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0
+  howClose: 0
 --- !u!1001 &1746603895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3236,6 +3267,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf635e40a3ccd44b691dc998819e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0
+  howClose: 0
 --- !u!1 &1854673125
 GameObject:
   m_ObjectHideFlags: 0
@@ -3449,6 +3482,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cdf635e40a3ccd44b691dc998819e43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 0
+  howClose: 0
 --- !u!1 &2108355763 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1823764210154717364, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
@@ -3466,7 +3501,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd8896d83e868a741a293406facbe4b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
 --- !u!1001 &1823764209463825261
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3474,6 +3508,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1823764210154717325, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
+      propertyPath: speed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 1823764210154717360, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
       propertyPath: m_RootOrder
       value: 4

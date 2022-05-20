@@ -1,18 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
-using Unity.EditorCoroutines.Editor;
+using UnityEngine;
 
-public class CloneScript : MonoBehaviour
+public class Example : MonoBehaviour
 {
-
-
-    function Update()
+    public GameObject prefab;
+    void Start()
     {
-        if (Input.GetKeyDown(KeyCode.A))
+        for (var i = 0; i < 10; i++)
         {
-            Instantiate(gameObject);
+            Instantiate(prefab, new Vector3(i * 2.0f, 0, 0), Quaternion.identity);
         }
     }
-
 }
