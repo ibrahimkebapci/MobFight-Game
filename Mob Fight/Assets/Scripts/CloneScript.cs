@@ -1,13 +1,29 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class Example : MonoBehaviour
+public class CloneScript : MonoBehaviour
 {
-    public GameObject prefab;
+    public GameObject PlayerClone;
+    public Transform barrelEnd;
+    void OnTriggerEnter(Collider collider)
+    {
+        GameObject newClone = Instantiate(PlayerClone, barrelEnd.position,barrelEnd.rotation);
+        Destroy(gameObject);
+        
+
+    }
+    void OnCollisionEnter(Collision collision)
+    {
+        
+    }
     void Start()
     {
-        for (var i = 0; i < 10; i++)
-        {
-            Instantiate(prefab, new Vector3(i * 2.0f, 0, 0), Quaternion.identity);
-        }
+          //GameObject yeniNesne = Instantiate(PlayerClone, new Vector3(2, 3, 1), Quaternion.identity);
+    }
+    void Update()
+    {
+        
+
     }
 }
