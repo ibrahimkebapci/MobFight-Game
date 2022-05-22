@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("BoxPlayer").transform;
     }
     void Update()
     {

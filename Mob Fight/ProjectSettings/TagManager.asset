@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - CloneBox
+  - BoxPlayer
   layers:
   - Default
   - TransparentFX
