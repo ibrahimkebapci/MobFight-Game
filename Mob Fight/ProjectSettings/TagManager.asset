@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CloneBox
   - BoxPlayer
+  - Enemy
+  - MainBoxPlayer
   layers:
   - Default
   - TransparentFX

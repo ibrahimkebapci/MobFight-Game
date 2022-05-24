@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class CameraTakip : MonoBehaviour
 {
-    public GameObject Player;
+    public GameObject CameraObject;
     // Start is called before the first frame update
     Vector3 offset;
 
     private void Start()
     {
-        offset = transform.position - Player.transform.position;
+        offset = transform.position - CameraObject.transform.position;
     }
     private void LateUpdate()
     {
-        transform.position = Player.transform.position + offset;
+        transform.position = CameraObject.transform.position + offset;
     }
 }

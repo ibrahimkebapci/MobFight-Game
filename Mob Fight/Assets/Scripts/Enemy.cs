@@ -9,6 +9,13 @@ public class Enemy : MonoBehaviour
     public float moveSpeed;
     public float howClose;
 
+    void OnTriggerEnter(Collider collider)
+    {
+        if (collider.gameObject.tag == "BoxPlayer")
+        {
+            Destroy(gameObject);
+        }
+    }
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("BoxPlayer").transform;
@@ -22,7 +29,5 @@ public class Enemy : MonoBehaviour
             transform.LookAt(player);
             GetComponent<Rigidbody>().AddForce(transform.forward * moveSpeed);
         }
-
-        
     }
 }
