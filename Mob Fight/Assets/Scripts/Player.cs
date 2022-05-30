@@ -15,11 +15,13 @@ public class Player : MonoBehaviour
     }
     void Update()
     {
+        //GetComponent<Rigidbody>().velocity = Vector3.forward * 5;
+
         float xDirection = Input.GetAxisRaw("Horizontal");
         float zDirection = Input.GetAxisRaw("Vertical");
 
-        Vector3 moceDirection = new Vector3(xDirection, 0.0f,zDirection).normalized;
+        Vector3 moceDirection = new Vector3(xDirection, 0.0f, zDirection).normalized;
 
-        transform.position += moceDirection*speed;    
+        transform.position += moceDirection * speed;
     }
 }
