@@ -5,7 +5,8 @@ using System;
 
 public class Player : MonoBehaviour
 {
-    public float speed = 1f;
+    Vector3 imlecDunya;
+    //public float speed = 1f;
     void OnTriggerEnter(Collider collider)
     {
         if (collider.gameObject.tag == "Enemy")
@@ -16,12 +17,11 @@ public class Player : MonoBehaviour
     void Update()
     {
         //GetComponent<Rigidbody>().velocity = Vector3.forward * 5;
-
-        float xDirection = Input.GetAxisRaw("Horizontal");
-        float zDirection = Input.GetAxisRaw("Vertical");
-
-        Vector3 moceDirection = new Vector3(xDirection, 0.0f, zDirection).normalized;
-
-        transform.position += moceDirection * speed;
+        if(Input.GetMouseButtonDown(0))
+        {
+            imlecDunya = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 20)); 
+        }
+        transform.position = Vector3.MoveTowards(transform.position,imlecDunya,.2f);
     }
+
 }
