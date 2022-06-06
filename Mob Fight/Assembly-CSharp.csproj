@@ -68,7 +68,6 @@
     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\Scripts\CloneScript.cs" />
     <Compile Include="Assets\Scripts\CameraObjectMovement.cs" />
-    <Compile Include="Assets\Scripts\Joybutton.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

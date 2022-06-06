@@ -2,26 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class Player : MonoBehaviour
-{  
+{
     public Joystick joystick;
-    public Joybutton joybutton;
+    public float hiz = 6f;
+    Rigidbody rg;
 
     private void Start()
     {
-
-        joystick = FindObjectOfType<Joystick>();
-        joybutton = FindObjectOfType<Joybutton>();
-
+        rg = GetComponent<Rigidbody>();
     }
-    void Update()
+    private void FixedUpdate()
     {
-        var rigidbody = GetComponent<Rigidbody>();
-        rigidbody.velocity = new Vector3(joystick.Horizontal*10f,
-                                         rigidbody.velocity.y,
-                                         joystick.Vertical*10f
-            ); 
+        Vector3 kuvvet = new Vector3(joystick.Horizontal*hiz, 0f, joystick.Vertical*hiz);
+        rg.AddForce(kuvvet);
     }
 
     void OnTriggerEnter(Collider collider)
