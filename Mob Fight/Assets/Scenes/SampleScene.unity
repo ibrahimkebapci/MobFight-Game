@@ -3670,7 +3670,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &882541608
 Transform:
   m_ObjectHideFlags: 0
@@ -8468,16 +8468,36 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1823764210154717363, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823764210154717363, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823764210154717363, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823764210154717363, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
+      propertyPath: m_AngularDrag
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823764210154717363, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
       propertyPath: m_Constraints
       value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 1823764210154717363, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
       propertyPath: m_IsKinematic
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1823764210154717364, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823764210154717367, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
