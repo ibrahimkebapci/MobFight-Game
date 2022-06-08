@@ -10,7 +10,7 @@ public class CameraObjectMovement : MonoBehaviour
     // Update is called once per frame
         void Update()
         {
-            GetComponent<Rigidbody>().velocity = Vector3.forward * 5;
+            GetComponent<Rigidbody>().velocity = Vector3.forward * 2;
         }
     
 }
