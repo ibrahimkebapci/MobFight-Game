@@ -14,17 +14,4 @@ public class CloneScript : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    void OnCollisionEnter(Collision collision)
-    {
-        
-    }
-    void Start()
-    {
-          //GameObject yeniNesne = Instantiate(PlayerClone, new Vector3(2, 3, 1), Quaternion.identity);
-    }
-    void Update()
-    {
-        
-
-    }
 }

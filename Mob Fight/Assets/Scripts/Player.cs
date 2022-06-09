@@ -8,7 +8,7 @@ using UnityEngine.EventSystems;
 public class Player : MonoBehaviour
 {
     public Joystick joystick;
-    public float hiz = 6f;
+    public float hiz = 5f ;
     Rigidbody rg;
 
     private void Start()
