@@ -224,8 +224,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 616d06bff8e092c4da4a6c538173252a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  joystick: {fileID: 2929252283123773951, guid: aaa2c939c0359ac4dbce3f49e8b90252, type: 3}
-  hiz: 50
+  _rigidbody: {fileID: 1823764210154717363}
+  _joyistick: {fileID: 0}
+  _moveSpeed: 20
 --- !u!54 &1823764210154717363
 Rigidbody:
   m_ObjectHideFlags: 0
