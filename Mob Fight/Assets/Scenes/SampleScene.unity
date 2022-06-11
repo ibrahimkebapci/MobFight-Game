@@ -131,8 +131,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
     - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: moveSpeed
-      value: 50
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
@@ -607,13 +627,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.4
+      value: 3.8609219
       objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_LocalPosition.y
@@ -776,6 +820,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -900,6 +968,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -1029,6 +1121,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -1472,6 +1588,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -1534,13 +1674,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.4
+      value: 3.8609219
       objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1701,6 +1865,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -2042,6 +2230,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2104,13 +2316,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.069538
+      value: 7.53046
       objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2335,6 +2571,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -2397,6 +2657,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -2473,7 +2757,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &882541608
 Transform:
   m_ObjectHideFlags: 0
@@ -2690,6 +2974,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &899140453 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 1823764210154717363, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
+  m_PrefabInstance: {fileID: 1827177654}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &927782279
 GameObject:
   m_ObjectHideFlags: 0
@@ -2825,6 +3114,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -3122,6 +3435,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -3425,6 +3762,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -3487,6 +3848,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -3592,6 +3977,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -3654,13 +4063,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.269539
+      value: 10.730461
       objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3711,6 +4144,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -3773,6 +4230,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -4050,6 +4531,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -4696,6 +5201,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -4758,6 +5287,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -4820,6 +5373,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -5134,6 +5711,18 @@ PrefabInstance:
       propertyPath: joystick
       value: 
       objectReference: {fileID: 960009541}
+    - target: {fileID: 1823764210154717325, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
+      propertyPath: _joyistick
+      value: 
+      objectReference: {fileID: 960009541}
+    - target: {fileID: 1823764210154717325, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
+      propertyPath: _moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823764210154717325, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
+      propertyPath: _rigidbody
+      value: 
+      objectReference: {fileID: 899140453}
     - target: {fileID: 1823764210154717360, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -5303,13 +5892,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.069538
+      value: 7.53046
       objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5360,6 +5973,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -5646,6 +6283,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665813682}
     m_Modifications:
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: howClose
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137459337182624339, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: moveSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 8358774559151423224, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8358774559151423227, guid: f6319d0d95c72a141862ded60ef2bf32, type: 3}
       propertyPath: m_RootOrder
       value: 3

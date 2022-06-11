@@ -6,7 +6,7 @@ public class ObjectDestroyer : MonoBehaviour
 {
      void Update()
     {
-       GetComponent<Rigidbody>().velocity = Vector3.forward * 5;
+       GetComponent<Rigidbody>().velocity = Vector3.forward * 2;
     }
     private void OnTriggerEnter(Collider collider)
     {
