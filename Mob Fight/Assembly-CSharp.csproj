@@ -68,6 +68,17 @@
     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\Scripts\CloneScript.cs" />
     <Compile Include="Assets\Scripts\CameraObjectMovement.cs" />
+    <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\DemoFree.cs" />
+    <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\FreeCameraLogic.cs" />
+    <Compile Include="Assets\Supercyan Character Pack Free Sample\Scripts\SimpleSampleCharacterControl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\Legacy\CelShader.shader" />
+    <None Include="Assets\Downtown Game Studio\HYPERCASUAL - Simple Female &amp; Male Characters\Documentation.txt" />
+    <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\SupercyanShader.shader" />
+    <None Include="Assets\Supercyan Character Pack Free Sample\Shaders\SupercyanShaderLighting.cginc" />
+    <None Include="Assets\Downtown Game Studio\Nature Pack - Low Polly Trees &amp; Bushes\Documentation.txt" />
+    <None Include="Assets\FREE CASUAL PACK SFX\WELCOME_FREE CASUAL PACK SFX (README).txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
