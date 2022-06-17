@@ -22,6 +22,10 @@ public class Enemy : MonoBehaviour
     }
     void Update()
     {
+        if (gameObject== null)
+        {
+            return;
+        }
         dist = Vector3.Distance(player.position, transform.position);
 
         if(dist <= howClose)

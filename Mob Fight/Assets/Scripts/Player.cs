@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
     }
     private void Start()
     {
-        
+        _joyistick = FindObjectOfType<FixedJoystick>();   
     }
     private void FixedUpdate()
     {
