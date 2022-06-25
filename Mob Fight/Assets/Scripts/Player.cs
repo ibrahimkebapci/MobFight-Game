@@ -25,7 +25,6 @@ public class Player : MonoBehaviour
     private void FixedUpdate()
     {
         _rigidbody.velocity = new Vector3(_joyistick.Horizontal * _moveSpeed,_rigidbody.velocity.y, _joyistick.Vertical * _moveSpeed);
-        transform.position = _rigidbody.position;
         transform.up = new Vector3(_joyistick.Horizontal * _moveSpeed, _rigidbody.velocity.y, _joyistick.Vertical * _moveSpeed);
     }
     

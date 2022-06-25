@@ -2003,7 +2003,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569109647}
-  m_LocalRotation: {x: 0.26097217, y: -0.000000016610116, z: 0.0000000044903854, w: 0.96534634}
+  m_LocalRotation: {x: 0.26097217, y: 0.000000016610118, z: -0.0000000044903863, w: 0.96534634}
   m_LocalPosition: {x: -3.392, y: 26.751, z: -421}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3382,7 +3382,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.26097217, y: -0.000000016610116, z: 0.0000000044903854, w: 0.96534634}
+  m_LocalRotation: {x: 0.26097217, y: 0.000000016610118, z: -0.0000000044903863, w: 0.96534634}
   m_LocalPosition: {x: -3.392, y: 26.751, z: -421}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -5351,7 +5351,7 @@ ParticleSystemRenderer:
   m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
-  m_AllowRoll: 1
+  m_AllowRoll: 0
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
   m_VertexStreams: 00010304
@@ -10517,7 +10517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1823764210154717360, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.62
+      value: 6.07
       objectReference: {fileID: 0}
     - target: {fileID: 1823764210154717360, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10555,11 +10555,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 4082543683359496577, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
+    - target: {fileID: 7455437174204524744, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
       propertyPath: _joyistick
       value: 
       objectReference: {fileID: 960009541}
-    m_RemovedComponents: []
+    - target: {fileID: 7455437174204524744, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
+      propertyPath: _moveSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1228567250, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 032c24d63a178234da2b9c361ea5face, type: 3}
 --- !u!1 &1854673125
 GameObject:
