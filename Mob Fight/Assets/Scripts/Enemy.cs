@@ -11,17 +11,18 @@ public class Enemy : MonoBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.tag == "BoxPlayer")
+        if (collider.gameObject.tag == "MainPlayer")
         {
             Destroy(gameObject);
         }
     }
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("BoxPlayer").transform;
+        player = GameObject.FindGameObjectWithTag("MainPlayer").transform;
     }
     void Update()
     {
+
         if (gameObject== null)
         {
             return;

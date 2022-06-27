@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 63
+  controlID: 89
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 64
+  controlID: 90
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -14102
+  m_LastSelectedObjectID: -2252
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -425,23 +425,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Prefab
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Prefab
   m_LastFoldersGridSize: 57
   m_LastProjectPath: C:\Users\ibrah\UnityProjeleri\Bitkiler-vs-Zombiler-clone\MobFight-Oyun\Mob
     Fight
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 463}
-    m_SelectedIDs: 98430000
-    m_LastClickedID: 17304
-    m_ExpandedIDs: 00000000584300005a4300005c4300005e430000604300006243000064430000664300006843000000ca9a3b
+    scrollPos: {x: 0, y: 3.8000183}
+    m_SelectedIDs: 9c430000
+    m_LastClickedID: 17308
+    m_ExpandedIDs: 00000000584300005e4300006243000064430000664300006843000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -500,18 +500,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c62300002241000094520000924100008e410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 1320
-      m_OriginalName: 1320
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 17340
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
@@ -592,21 +592,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6efbffff72400000
+      m_ExpandedIDs: 34f7ffff6efbffff5e3f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Particle System
-        m_OriginalName: Particle System
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 16576
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -652,9 +652,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1, y: 8, z: -407}
+    m_Target: {x: -4, y: 6.07, z: -387}
     speed: 2
-    m_Value: {x: -1, y: 8, z: -407}
+    m_Value: {x: -4, y: 6.07, z: -387}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -701,13 +701,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.27700472, y: -0.48868242, z: 0.16705553, w: 0.81030005}
+    m_Target: {x: 0.22373933, y: -0.04530224, z: 0.010411415, w: 0.9735395}
     speed: 2
-    m_Value: {x: 0.27699977, y: -0.4886737, z: 0.16705255, w: 0.81028557}
+    m_Value: {x: 0.22373943, y: -0.04530226, z: 0.01041142, w: 0.97353995}
   m_Size:
-    m_Target: 3.3895001
+    m_Target: 2.598076
     speed: 2
-    m_Value: 3.2435408
+    m_Value: 2.598076
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -790,7 +790,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1

@@ -8,7 +8,7 @@ public class CloneScript : MonoBehaviour
     public Transform barrelEnd;
     void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.tag == "BoxPlayer" || collider.gameObject.tag == "MainBoxPlayer")
+        if (collider.gameObject.tag == "MainPlayer")
         {
             GameObject newClone = Instantiate(PlayerClone, barrelEnd.position, barrelEnd.rotation);
             Destroy(gameObject);

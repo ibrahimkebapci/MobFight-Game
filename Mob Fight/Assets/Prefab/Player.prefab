@@ -10,10 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1823764210154717360}
   - component: {fileID: 1823764210154717361}
-  - component: {fileID: 1228567250}
   m_Layer: 0
   m_Name: Player
-  m_TagString: MainBoxPlayer
+  m_TagString: MainPlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41,25 +40,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823764210154717364}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!95 &1228567250
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823764210154717364}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 45d480461bbdc704587e117329ce8e69, type: 3}
-  m_Controller: {fileID: 9100000, guid: 8b9a677f24793ba45bdc27a1dab7745e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &298530564964596797
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73,7 +53,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1144978573833690, guid: 1e8e1924bb442334c9125455634bb567, type: 3}
       propertyPath: m_TagString
-      value: MainBoxPlayer
+      value: MainPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 4749730850939948, guid: 1e8e1924bb442334c9125455634bb567, type: 3}
       propertyPath: m_RootOrder
@@ -154,7 +134,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 116
@@ -184,6 +164,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 616d06bff8e092c4da4a6c538173252a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fixedJoystick: {fileID: 0}
+  speed: 10
+  turnSpeed: 10
   _rigidbody: {fileID: 4574481943538358943}
   _joyistick: {fileID: 0}
-  _moveSpeed: 20
+  _moveSpeed: 50
