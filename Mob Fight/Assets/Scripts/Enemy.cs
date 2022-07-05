@@ -22,17 +22,17 @@ public class Enemy : MonoBehaviour
     }
     void Update()
     {
-
-        if (gameObject== null)
-        {
-            return;
-        }
         dist = Vector3.Distance(player.position, transform.position);
 
-        if(dist <= howClose)
+        if (dist <= howClose)
         {
             transform.LookAt(player);
             GetComponent<Rigidbody>().AddForce(transform.forward * moveSpeed);
         }
+
+        if (gameObject == null)
+        {
+            return;
+        }   
     }
 }
